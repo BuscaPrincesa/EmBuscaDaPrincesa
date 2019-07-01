@@ -3227,6 +3227,7 @@ GameObject:
   - component: {fileID: 519420035}
   - component: {fileID: 519420034}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 12
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3326,6 +3327,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 606b42a266d99cf46b5f84eec012bf94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!61 &519420034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9902,7 +9916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de5d6d9e106b33744b40155dcc0694fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TapeSpeed: {x: -4, y: 0, z: 0}
+  TapeSpeed: {x: 0, y: 0, z: 0}
   Tape: {fileID: 360649755}
   uiComponents:
     hud:
