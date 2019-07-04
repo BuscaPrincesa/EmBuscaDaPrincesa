@@ -15,8 +15,6 @@ public class LevelManager : MonoBehaviour
 
     public UIComponents uiComponents;
 
-    SceneData sceneData = new SceneData();
-
     void Awake(){
         Assert.IsNotNull(Tape);
         if (instance == null){
@@ -25,32 +23,19 @@ public class LevelManager : MonoBehaviour
     }
 
 
-    void Update()
-    {
-        Tape.position = Tape.position + TapeSpeed * Time.deltaTime;
-        DisplayHudData();
-    }
-
-    public void IncrementCoinCount(){
-        sceneData.coinCount++;
-    }
-
-    void DisplayHudData() {
-        uiComponents.hud.txtCoinCount.text = "x" + sceneData.coinCount;
-    }
-
+    
     public void SetTapeSpeed(float value) {
         TapeSpeed = new Vector3(value, TapeSpeed.y, TapeSpeed.z);
     }
 
     public void ShowLevelCompletePanel() {
         uiComponents.levelCompletePanel.Panel.SetActive(true);
-        uiComponents.levelCompletePanel.txtScore.text = "" + sceneData.coinCount;
+        
     }
 
     public void ShowGameOverPanel()
     {
         uiComponents.gameOverPanel.Panel.SetActive(true);
-        uiComponents.gameOverPanel.txtScore.text = "" + sceneData.coinCount;
+        
     }
 }
