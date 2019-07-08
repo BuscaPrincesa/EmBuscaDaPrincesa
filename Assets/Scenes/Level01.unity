@@ -900,7 +900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca59d2497795f9549aa6f03b44b5a415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 717514850}
+  speed: 4
 --- !u!61 &519420034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1157,7 +1157,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 717514850}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f91252120fdac8e4f9bcfe1e15409714, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1179,8 +1179,8 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_GravityScale: 2
+  m_Material: {fileID: 6200000, guid: f91252120fdac8e4f9bcfe1e15409714, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -1209,6 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f4edf635cf6c14f8ad64c32e47eeb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 4
 --- !u!4 &731648810 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5412744877704197730, guid: 3cb95d458bbe50b42bc25674ba481892,

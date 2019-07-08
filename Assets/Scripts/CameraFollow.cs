@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public GameObject target;
+    public float speed = 4f;
+    //public GameObject target;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +15,14 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        transform.position = new Vector3(transform.position.x + speed * Time.deltaTime, transform.position.y, transform.position.z);
+
+        /*
         if (target != null)
         {
             Vector3 camPos = gameObject.transform.position;
             gameObject.transform.position = new Vector3(target.transform.position.x, camPos.y, camPos.z);
         }
+        */
     }
 }
