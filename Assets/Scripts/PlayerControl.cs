@@ -28,9 +28,10 @@ public class PlayerControl : MonoBehaviour
     
     void StopMusicAndTape() {
         Camera.main.GetComponentInChildren<AudioSource>().mute = true;
-        LevelManager.instance.SetTapeSpeed(0); 
-       
+        CameraFollow script = Camera.main.GetComponent<CameraFollow>();
+        script.SetSpeed(0f);       
     }
+
     void KillPlayer() {
         StopMusicAndTape();
         AudioManager.instance.PlaySoundFail(gameObject);

@@ -25,4 +25,8 @@ public class CameraFollow : MonoBehaviour
         }
         */
     }
+
+    public void SetSpeed(float newSpeed) {
+        speed = newSpeed;
+    }
 }
