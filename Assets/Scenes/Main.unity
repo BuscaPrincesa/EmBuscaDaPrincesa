@@ -185,7 +185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69304153}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7240038, y: -1.704756, z: 0.055319488}
+  m_LocalPosition: {x: 1.36, y: -0.81, z: 0.055319488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1775230451}
@@ -330,7 +330,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 516290594}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6759963, y: -2.254756, z: 0.055319488}
+  m_LocalPosition: {x: -2.92, y: -1.99, z: 0.055319488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1775230451}
@@ -409,7 +409,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818351397}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.34599614, y: -1.224756, z: 0.055319488}
+  m_LocalPosition: {x: -0.77, y: -0.9, z: 0.055319488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1775230451}
@@ -450,8 +450,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -207}
-  m_SizeDelta: {x: 290.5, y: 81.3}
+  m_AnchoredPosition: {x: 9, y: -187}
+  m_SizeDelta: {x: 290.5, y: 109.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1063038091
 MonoBehaviour:
@@ -721,8 +721,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.9999999, y: -303}
-  m_SizeDelta: {x: 290.5, y: 81.3}
+  m_AnchoredPosition: {x: 9.000001, y: -278.45}
+  m_SizeDelta: {x: 338, y: 111.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1177861934
 MonoBehaviour:
@@ -772,7 +772,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level01
+          m_StringArgument: Creditos
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -969,7 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656238442}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.3940039, y: -2.254756, z: 0.055319488}
+  m_LocalPosition: {x: 3.27, y: -1.87, z: 0.055319488}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1775230451}
