@@ -331,7 +331,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5fa083461c1157c468f4b9263ec003ba, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6fcce4ab6c870934bbc5ab052c4e538b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.523
   m_Pitch: 1
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSFX:
     coinPickup: {fileID: 8300000, guid: 6542ae1ea54c48544a7e1062adb7e6d6, type: 3}
-    fail: {fileID: 8300000, guid: faf60612fb818fd4f93bb6c312db501c, type: 3}
+    fail: {fileID: 8300000, guid: d94f3b2f8441d3b4c868205ae4fb96d5, type: 3}
     levelComplete: {fileID: 8300000, guid: f69cf73908400fd4397542b3c0b5bb7d, type: 3}
   audioPlayer:
     jump: {fileID: 8300000, guid: 2a9c0ace42f3ed848a020349c3edcb69, type: 3}
